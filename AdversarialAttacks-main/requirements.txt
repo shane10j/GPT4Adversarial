@@ -1,5 +1,5 @@
 absl-py==1.4.0
-autoattack==0.1
+autoattack
 boltons==23.0.0
 brotlipy==0.7.0
 cachetools==5.3.0

@@ -1,4 +1,4 @@
-git+https://github.com/fra31/auto-attack
+#git+https://github.com/fra31/auto-attack
 absl-py==1.4.0
 autoattack==0.1
 boltons==23.0.0

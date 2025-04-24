@@ -1,6 +1,6 @@
 #from data import get_NIPS17_loader
 import sys
-print(sys.path)
+sys.path.insert(0, '/nfshomes/shane10j/GPT4Adversarial/AdversarialAttacks-main')
 from data import get_cifar_10_c_loader
 from attacks import BIM, FGSM, PGD, MI_RandomWeight, \
     MI_FGSM, MI_CosineSimilarityEncourager, MI_SAM, MI_CommonWeakness, \

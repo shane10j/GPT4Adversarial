@@ -1,4 +1,6 @@
 #from data import get_NIPS17_loader
+import sys
+print(sys.path)
 from data import get_cifar_10_c_loader
 from attacks import BIM, FGSM, PGD, MI_RandomWeight, \
     MI_FGSM, MI_CosineSimilarityEncourager, MI_SAM, MI_CommonWeakness, \
